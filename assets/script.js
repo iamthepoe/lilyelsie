@@ -4,7 +4,7 @@ if(!username){
 }
 function LilyAnswer(message){
 
-	if(message.includes(('OI'))){
+	if(message.includes(('OI')) || message.includes(('OLÁ')) ){
 		return "Olá!";
 	}else if(message.includes(('FI'))){
 		return "Fi, você é brabo!"
