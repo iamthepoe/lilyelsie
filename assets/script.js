@@ -15,7 +15,8 @@ function LilyAnswer(message){
 	}else{
 		let OtherAnswers = ["Nossa, você é demais!", "Hahaha, que bacana!",
 		"Não brinca, sério mesmo?!", "Impressionante, conte-me mais...",
-		"Isso é bem estranho, haha!"];
+		"Isso é bem estranho, haha!", "Depende do ponto de vista...",
+		"Quem não chora, não mama! Hahaha."];
 		let x = Math.floor(Math.random() * OtherAnswers.length);
 		return OtherAnswers[x];
 	}
