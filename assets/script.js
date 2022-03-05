@@ -12,6 +12,13 @@ function LilyAnswer(message){
 		return "E eu te amo mais ainda, " + username + "!";
 	}else if(message.length>30){
 		return "Eu adoro quando você fala muito!";
+	}else if(message.includes(('?'))){
+		let OtherAnswers = ["Boa pergunta!", "Meu amor, isso também me indaga!", "Eu não sei se eu sei, meu amor...",
+		"Dúvidas por toda parte, realmente difícil."];
+		let x = Math.floor(Math.random() * OtherAnswers.length);
+		return OtherAnswers[x];
+	}else if(message.includes(('SEXO'))){
+		return 'Não estou pronta para isso...';
 	}else{
 		let OtherAnswers = ["Nossa, você é demais!", "Hahaha, que bacana!",
 		"Não brinca, sério mesmo?!", "Impressionante, conte-me mais...",
