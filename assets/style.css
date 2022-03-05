@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40vh;
+	background: #ff80bf;
+	border-bottom: 1px solid cyan;
+}
+
+.header-grid{
+	border: 8px solid pink;
+	width: 200px;
+	height: 30vh;
+	background-image: url("./images/lily.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.chat-area{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 60vh;
+	width: 100%;	
+	background-color: #ff66cc;
+
+}
+
+.chat-area-box{
+  resize: none;
+  width: 50vw;
+  height: 20vh;
+  border: 3px solid cyan;
+  background-color: #cc0099;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+.chat-area-message{
+	margin-top: 10px;
+	height: 30px;
+	width: 50vw;
+}
+
+.chat-area-sendButton{
+	color: white;
+	border-radius: 20px;
+	border: 2px solid cyan;
+	background-color: #cc0099;
+	text-align: center;
+	height: 40px;
+	width: 10vw;
+	margin-top: 10px;
+}
+
+.chat-area-sendButton:hover{
+	cursor: pointer;
+}
